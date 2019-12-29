@@ -1,0 +1,22 @@
+{
+  "name": "keystone-file-adapter-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/bitforger/keystone-file-adapter-s3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.596.0",
+    "url-join": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  }
+}
