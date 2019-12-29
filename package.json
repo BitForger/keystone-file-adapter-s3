@@ -1,10 +1,10 @@
 {
-  "name": "keystone-file-adapter-s3",
+  "name": "@bitforger/keystone-file-adapter-s3",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/bitforger/keystone-file-adapter-s3"
+    "url": "git://github.com/bitforger/keystone-file-adapter-s3.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
