@@ -1,6 +1,6 @@
 {
   "name": "@bitforger/keystone-file-adapter-s3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A KeystoneJS 5 file adapter for uploading to S3",
   "main": "lib/index.js",
   "repository": {
