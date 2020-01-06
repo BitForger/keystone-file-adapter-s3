@@ -1,16 +1,17 @@
 {
   "name": "@bitforger/keystone-file-adapter-s3",
   "version": "1.0.3",
-  "description": "",
+  "description": "A KeystoneJS 5 file adapter for uploading to S3",
   "main": "lib/index.js",
   "repository": {
-    "url": "git://github.com/bitforger/keystone-file-adapter-s3.git"
+    "type": "git",
+    "url": "git+https://github.com/bitforger/keystone-file-adapter-s3.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "BitForger",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.596.0",
@@ -18,5 +19,8 @@
   },
   "devDependencies": {
     "webpack": "^4.41.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
